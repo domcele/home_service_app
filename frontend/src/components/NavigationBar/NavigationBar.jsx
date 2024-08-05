@@ -8,7 +8,7 @@ const NavigationBar = () => {
   return (
     <header className={styles.navContainer}>
       <Logo />
-      <nav>
+      <nav className={styles.nav}>
         <div className={styles.leftNavSide}>
           {navigationBarLinks.map((link) => (
             <Link key={link.path} to={link.path}>

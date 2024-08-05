@@ -1,7 +1,7 @@
 const Button = () => {
   return (
     <div>
-      <Button>Log Out</Button>
+      <button>Log Out</button>
     </div>
   );
 };
