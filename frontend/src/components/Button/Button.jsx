@@ -1,9 +1,15 @@
-const Button = () => {
+import PropTypes from "prop-types";
+
+const Button = ({ children }) => {
   return (
     <div>
-      <button>Log Out</button>
+      <button>{children}</button>
     </div>
   );
+};
+
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export default Button;

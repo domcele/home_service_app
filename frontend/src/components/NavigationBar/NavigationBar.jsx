@@ -16,7 +16,7 @@ const NavigationBar = () => {
             </Link>
           ))}
         </div>
-        <Button />
+        <Button>Log In</Button>
       </nav>
     </header>
   );

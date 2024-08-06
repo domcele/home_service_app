@@ -6,7 +6,7 @@ import AboutUs from "../pages/AboutUs/AboutUs";
 export const ROUTES = {
   HOME: "/",
   SERVICES: "/services",
-  ABOUTUS: "/aboutus",
+  ABOUTUS: "/about",
 };
 
 export const routes = [
