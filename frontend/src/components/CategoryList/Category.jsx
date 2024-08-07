@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
+import styles from "../CategoryList/Category.module.scss";
 
 const Category = ({ category }) => {
   const { name, url } = category;
   return (
-    <div>
+    <div className={styles.container}>
       <img src={url} alt={name} />
       <p>{name}</p>
     </div>
