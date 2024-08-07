@@ -1,19 +1,20 @@
 import PropTypes from "prop-types";
 
-const Category = ({ category, url }) => {
-  const { name, img } = category;
-  const Img = img;
+const Category = ({ category }) => {
+  const { name, url } = category;
   return (
     <div>
-      <Img src={url} />
+      <img src={url} alt={name} />
       <p>{name}</p>
     </div>
   );
 };
 
 Category.propTypes = {
-  category: PropTypes.node.isRequired,
-  url: PropTypes.string.isRequired,
+  category: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Category;

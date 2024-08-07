@@ -4,27 +4,27 @@ const CategoryList = () => {
   const categories = [
     {
       name: "cleaning",
-      img: `https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000`,
+      url: `https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000`,
     },
     {
       name: "repair",
-      img: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
+      url: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
     },
     {
       name: "painting",
-      img: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
+      url: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
     },
     {
       name: "shifting",
-      img: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
+      url: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
     },
     {
       name: "plumbing",
-      img: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
+      url: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
     },
     {
       name: "electric",
-      img: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
+      url: "https://img.icons8.com/?size=100&id=V2mXDW29kocg&format=png&color=000000",
     },
   ];
   return (
